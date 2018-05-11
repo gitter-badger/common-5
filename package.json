@@ -1,0 +1,46 @@
+{
+  "name": "@sisk-technology-group/common",
+  "version": "0.0.1",
+  "description":
+    "A collection of common functions and classes for all Javascript / Typescript projects.",
+  "main": "lib/indx.js",
+  "scripts": {
+    "build": "yarn run clean && tsc",
+    "clean": "rimraf lib && npm run format",
+    "format": "prettier --write \"**/*.ts\"",
+    "minerva:release": "standard-version",
+    "test": "jest --notify",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sisk-technology-group-ltd/common.git"
+  },
+  "author": "Simon Skinner <simon@sisk-technology-group.ltd>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sisk-technology-group-ltd/common/issues"
+  },
+  "homepage": "https://github.com/sisk-technology-group-ltd/common#readme",
+  "devDependencies": {
+    "@types/jest": "22.2.3",
+    "@types/node": "10.0.8",
+    "jest": "22.4.3",
+    "prettier": "1.12.1",
+    "rimraf": "2.6.2",
+    "standard-version": "4.3.0",
+    "ts-jest": "22.4.6",
+    "typescript": "2.8.3"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "moduleDirectories": ["node_modules"],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "coverageReporters": ["html"]
+  }
+}

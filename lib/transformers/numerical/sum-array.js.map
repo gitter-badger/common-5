@@ -1,0 +1,1 @@
+{"version":3,"file":"sum-array.js","sourceRoot":"","sources":["../../../src/transformers/numerical/sum-array.ts"],"names":[],"mappings":";;AAAA,kBAAyB,KAAe;IACtC,IAAI,QAAQ,GAAW,CAAC,CAAC;IAEzB,KAAK,CAAC,OAAO,CAAC,CAAC,CAAS,EAAE,EAAE;QAC1B,QAAQ,GAAG,QAAQ,GAAG,CAAC,CAAC;IAC1B,CAAC,CAAC,CAAC;IAEH,OAAO,QAAQ,CAAC;AAClB,CAAC;AARD,4BAQC"}

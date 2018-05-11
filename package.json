@@ -6,7 +6,7 @@
   "main": "lib/indx.js",
   "scripts": {
     "build": "yarn run clean && tsc",
-    "clean": "rimraf lib && npm run format",
+    "clean": "rimraf lib && npm run format && npm run test:coverage",
     "format": "prettier --write \"**/*.ts\"",
     "minerva:release": "standard-version",
     "test": "jest --notify",

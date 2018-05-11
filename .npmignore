@@ -1,0 +1,8 @@
+src
+node_modules
+coverage
+docs
+.minerva.json
+.prettierrc
+tsconfig.json
+tslint.json

@@ -1,8 +1,9 @@
 {
   "name": "@sisk-technology-group/common",
   "version": "0.1.0",
-  "description": "A collection of common functions and classes for all Javascript / Typescript projects.",
-  "main": "lib/indx.js",
+  "description":
+    "A collection of common functions and classes for all Javascript / Typescript projects.",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "yarn run clean && tsc",
     "clean": "rimraf lib && npm run format && npm run test:coverage",
@@ -32,22 +33,14 @@
     "typescript": "2.8.3"
   },
   "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "moduleDirectories": ["node_modules"],
     "rootDir": "src",
     "testRegex": ".spec.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
     "coverageDirectory": "../docs",
-    "coverageReporters": [
-      "html"
-    ]
+    "coverageReporters": ["html"]
   }
 }

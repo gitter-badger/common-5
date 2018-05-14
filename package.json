@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "A collection of common functions and classes for all Javascript / Typescript projects.",
   "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "build": "yarn run clean && tsc",
     "clean": "rimraf lib && npm run format && npm run test:coverage",

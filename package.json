@@ -10,7 +10,7 @@
     "format": "prettier --write \"**/*.ts\"",
     "minerva:release": "standard-version",
     "test": "jest --notify",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --notify --coverage"
   },
   "repository": {
     "type": "git",
